@@ -46,9 +46,9 @@ for value in sample_array:
     sample_sum += value 
 
 print(f"Sum of sample_array: {sample_sum}")
+
 # print(np.sum(sample_array))
 
-# print(4**(1/2))
 # Write mse_loss(y_true, y_pred) and mae_loss(y_true, y_pred) from scratch.
 
 def mse_loss(y_true:np.array, y_pred:np.array):
